@@ -21,7 +21,6 @@ h3 {
 
 .about-me-paragraph {
   background: var(--secondary-color);
-
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
@@ -123,7 +122,10 @@ h3 {
   }
   .about-paragraphs {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 100%;
+  }
+  .about-me-paragraph {
+    margin: 0px;
   }
 }
