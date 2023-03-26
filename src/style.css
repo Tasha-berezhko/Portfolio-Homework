@@ -104,3 +104,26 @@ h3 {
   text-align: left;
   margin: 0 0 15px 15px;
 }
+
+@media (max-width: 576px) {
+  .main-img {
+    display: none;
+  }
+  .project-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navigation-links a {
+    padding: 15px 10px;
+  }
+  .project,
+  .project-name {
+    text-align: center;
+  }
+  .about-paragraphs {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
