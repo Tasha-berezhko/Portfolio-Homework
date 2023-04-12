@@ -2,21 +2,34 @@
   --primary-color: rgb(238, 99, 123);
   --secondary-color: #d2f3e0c4;
   --third-color: #524a4e;
+  --text-color: #606072;
+  --background-color: rgba(238, 99, 122, 0.082);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper {
-  text-align: center;
   margin: 120px 40px;
 }
 
 h1 {
   color: var(--primary-color);
 }
+h2 {
+  color: var(--text-color);
+}
 
 h3 {
   color: var(--third-color);
   margin-bottom: 30px;
+}
+
+p {
+  color: var(--text-color);
+}
+.hero {
+  background-color: var(--background-color);
+  padding: 160px 0;
+  text-align: center;
 }
 
 .about-me-paragraph {
@@ -102,6 +115,11 @@ h3 {
   font-weight: 500;
   text-align: left;
   margin: 0 0 15px 15px;
+}
+
+.main-img {
+  padding: 120px 30px;
+  background-color: var(--background-color);
 }
 
 @media (max-width: 576px) {
