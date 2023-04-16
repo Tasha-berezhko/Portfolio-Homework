@@ -158,7 +158,10 @@ nav .nav-link {
   padding: 120px 30px;
   background-color: var(--background-color);
 }
-
+.my-works .btn-branding {
+  display: block;
+  margin: 0 220px;
+}
 footer {
   margin: 60px 0;
 }
