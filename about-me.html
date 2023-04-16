@@ -39,7 +39,7 @@
     <nav class="navbar navbar-expand-lg bg-personal fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand ms-5" href="/"
-          ><img src="/img/envelope.png" width="35px"
+          ><img src="img/envelope.png" width="35px" alt="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -55,16 +55,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/" title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about-me.html">About me</a>
+              <a
+                class="nav-link active"
+                href="/about-me.html"
+                title="About me page"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">My works</a>
+              <a class="nav-link" href="/work.html" title="My works"
+                >My works</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about-me.html#contact-me"
+              <a
+                class="nav-link"
+                href="/about-me.html#contact-me"
+                title="Contact me"
                 >Contact me</a
               >
             </li>
@@ -75,9 +87,9 @@
 
     <div class="wrapper">
       <div class="hero">
-        <img src="/img/about-picture.png" alt="" width="200px" />
+        <img src="/img/about-picture.png" alt="logo" width="200px" />
         <div class="go-to-homepage">
-          <a href="/">Go to Homepage</a>
+          <a href="/" title="Homepage">Go to Homepage</a>
         </div>
         <h1 class="name">About me</h1>
         <h3>Front-end developer from Kyiv, Ukraine</h3>
@@ -123,24 +135,49 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a
+              href="/about-me.html#contact-me"
+              class="btn btn-branding"
+              title="contact me"
+              >Contact me</a
+            >
           </div>
         </div>
 
         <div class="text-center mb-5">
           <div id="contact-me">💌 Contact me</div>
 
-          <a class="email" href="mailto:kavayna19@gmail.com class=email.link">
+          <a
+            class="email"
+            href="mailto:kavayna19@gmail.com class=email.link"
+            title="email"
+          >
             via e-mail
           </a>
         </div>
 
         <div class="social-links text-center mb-5">
-          <a href="#"><i class="fa-brands fa-square-github"></i></a>
-          <a href="#"> <i class="fa-brands fa-instagram"></i></a>
-          <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"
+            ><i class="fa-brands fa-square-github" title="GitHub profile"></i
+          ></a>
+          <a href="#">
+            <i class="fa-brands fa-instagram" title="Instagram profile"></i
+          ></a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin" title="LinkedIn profile"></i
+          ></a>
         </div>
       </footer>
+      <p class="text-center mt-5">
+        This project wsa coded be Tasha Berezhko. You can see the code
+        <a
+          href="https://github.com/Tasha-berezhko/Portfolio-Homework"
+          target="_blank"
+          title="GitHub code"
+        >
+          here</a
+        >
+      </p>
     </div>
   </body>
 </html>
